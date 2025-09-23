@@ -1,0 +1,47 @@
+facebook:
+  label: Facebook
+  permalink: /facebook
+  description: Facebook tag description
+
+hello:
+  label: Hello
+  permalink: /hello
+  description: Hello tag description
+
+docusaurus:
+  label: Docusaurus
+  permalink: /docusaurus
+  description: Docusaurus tag description
+
+HPC: 
+  label: HPC
+  permalink: /HPC
+  description: Anything and Everything Related to High Performance Computing
+
+Deep Learning: 
+  label: Deep Learning
+  permalink: /Deep-Learning
+  description: News and updates related to deep learning
+
+GPU: 
+  label: GPU
+  permalink: /GPU
+  description: Anything and Everything Related to GPU
+
+#NSH, ML, AI, CAREER
+NSF: 
+  label: NSF
+  permalink: /NSF
+  description: Funding opportunities and news related to the National Science Foundation
+
+ML: 
+  label: ML
+  permalink: /ML
+  description: News and updates related to machine learning
+
+AI:
+  label: AI
+  permalink: /AI
+  description: News and updates related to artificial intelligence
+
+
