@@ -18,7 +18,7 @@ Content within notebooks might be inaccessible due to varied issues such as alt 
 
 Adding alternative text ("alt text") to images is an important accessibility practice, especially when creating content for the web. Alt text provides a textual description of images, making content accessible to individuals who use screen readers or have other disabilities. Data visualization libraries such as matplotlib and seaborn by default doesn't support embedding alt text to generated charts.
 
-You can add alt text to an image in a markdown file by using the below syntax where the text withing the square brackets denotes the alt text for an image.
+You can add alt text to an image in a markdown file by using the below syntax where the text within the square brackets denotes the alt text for an image.
 
 `![A beautiful landscape](landscape.jpg)`
 
@@ -33,6 +33,21 @@ a) Descriptive summary of data represented in the chart and
 b) HTML formatted table in the form of code or markdown cells.
 
 Representing data in the form of table should take into consideration the impact it has on screen readers. Too many rows and columns can affect screen reader navigation resulting in issues with navigation and comprehension.
+
+## Avoid relying on color alone <!-- {docsify-ignore} -->
+
+For accessibility and readability, it is recommended to create charts that do not solely rely on color to communicate meaning.
+Some reader may have color blindness, or low vision, making certain colors hard to distinguish.
+
+To improve accessibility for these users:
+
+- Use direct labels when possible
+
+- Add patterns, textures, or other markers when applicable
+
+- Choose high contrast colors or color-blind friendly color 
+
+- Ensure Legends and axis lables are clear, concise, and accessible
 
 ## Avoid creating large notebooks <!-- {docsify-ignore} -->
 
